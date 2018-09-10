@@ -1,0 +1,99 @@
+
+        /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        /*GLOBAL*/
+        * {
+            font-family: 'Arial', sans-serif;
+            margin:0px;
+            padding:0px;
+        }
+
+        body {
+            background-color: #F5F5F5;
+        }
+
+        strong, button {
+            text-transform:uppercase;
+        }
+
+        button {
+            background-color: #CDDC39;
+            color: black;
+        }
+
+        /*APP BAR*/
+        .app-bar {
+            background-color: #3F51B5;
+            color: white;
+        }
+
+        /*TAB BAR*/
+
+
+        #tap-bar{
+            background-color:white;
+        }
+
+        #tap-bar button{
+            background-color: white;
+            border-style: none;
+            font-size: 13px;
+            height: 72px;
+            min-width: 33%;
+            padding: 16px;
+        }
+
+        #tap-bar .selected{
+            border-bottom:4px solid #3F51B5;
+            color: #3F51B5;
+        }
+
+        /*CHANNEL LIST*/
+        li {
+            background-color: white;
+            list-style-type: none;
+            padding: 16px;
+            font-size: 16px;
+            height: 47.8px;
+            border-bottom: 0.2px solid #F5F5F5;
+        }
+
+        ul .selected{
+            border-left:4px solid #3F51B5;
+            color: #3F51B5;
+        }
+
+        /*MESSAGES*/
+
+        .message, .own-message{
+            width:80%;
+            margin-bottom:8px;
+            margin-left:2.5%;
+        }
+
+        .message h3, .own-message h3{
+            font-size: medium;
+        }
+
+        .message p, .own-message p{
+            background-color: white;
+            padding:16px;
+        }
+
+        .message em, .own-message em{
+            font-size: larger;
+            font-style: normal;
+        }
+
+        .own-message{
+            margin-left:17.5%;
+        }
+
